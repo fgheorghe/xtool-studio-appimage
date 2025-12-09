@@ -1,5 +1,7 @@
 Step by step instructions on how to create an AppImage for xTool Studio using Ubuntu.
 
+Flatpak script available here, and works without issues: https://github.com/fgheorghe/xtool-studio-flatpak/tree/main
+
 AppImages allow users of any distro to use the app. I have tested it on Fedora 43 Kinoite and the only error I am getting is when I click Background Refresh (most likely a lib I am failing to install, because it works using the .deb package):
 ```
 11:12:15.458 (main) › xTool Studio Algorithm Worker call error: xcm api call failed (P2GlobalCorrectImageSync): worker has exit！ related methods not completed
